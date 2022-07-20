@@ -1,7 +1,9 @@
-## STEREOTYPED SUBSET #8 SHOWED A UNIQUE ACTIVE ACETYLATION SIGNATURE CORRELATED WITH EXPRESSION SUGGESTING SUPER REGULATORY REGIONS
+## CHROMATIN ACTIVATION PROFILING OF STEREOTYPED CHRONIC LYMPHOCYTIC LEUKEMIAS REVEALS A SUBSET #8 SPECIFIC SIGNATURE
 
-### Author/s: Maria Tsagiopoulou, Vicente Chapaprieta, Nuria Russiñol, Nikolaos Pechlivanis, Nikos Papakonstantinou,  Niki Stavroyianni, Anastasia Chatzidimitriou, Fotis Psomopoulos, Elias Campo, Kostas Stamatopoulos, José I. Martin-Subero
+### Author/s: Maria Tsagiopoulou, José I. Martin-Subero
 
 ## Graphical summary
+
+
 
 ## Data
