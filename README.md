@@ -27,6 +27,6 @@ script necessary to create the RNAseq matrix
 3_Random_resampling.R (random resampling, x100 times differential analysis and reporting the most frequent regions)
 
 ## Data
-zenodo : 
+zenodo : https://zenodo.org/record/6865838 
 
 EGA :
