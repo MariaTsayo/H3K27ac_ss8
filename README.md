@@ -50,8 +50,8 @@ conda install -c bioconda kallisto
 - ```input```: The resource to find the output matrix
 
 ### RNAseq_analysis: 
-- ```input```: The resource to find the ChIP seq data
-- ```pipeline```: The pipeline to run the analysis from fastq files
+- ```input```: The resource to find the RNA seq data
+- ```pipeline```: The pipeline to run the analysis from fastq files and the script to import this output into R
 - ```input```: The resource to find the output matrix
 
 ### downstream analysis:
