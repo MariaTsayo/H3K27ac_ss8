@@ -17,6 +17,15 @@ The data has been deposited in five levels of organization, from raw to processe
 - matrices. All the counts table have been deposited in Zenodo (https://zenodo.org/record/6865838 ).
 
 
+## Prerequisites
+The packages needed to be installed, in order to run the project are:
+
+### from CRAN
+install.packages(c("tidyverse", "data.table", "stringdist", "pryr"))
+### from Bioconductor
+BiocManager::install(c("Biostrings", "ShortRead"))
+
+
 ## Folders and content:
 ### ChIP seq_fastq analysis: 
 
