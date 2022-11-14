@@ -56,7 +56,7 @@ conda install -c bioconda kallisto
 
 ### downstream analysis:
 
-- ```Combat_batchEffectCorrection.R```:  batch effect correction script
+- ```Combat_batchEffectCorrection.R```:  batch effect correction script 
 
 - ```DiffAnalysis_heatmap_PCA.R```:  Differential analysis and visualation using complexheatmap and ggplot2
 
