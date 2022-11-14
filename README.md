@@ -56,8 +56,8 @@ conda install -c bioconda kallisto
 
 ### downstream analysis:
 
-- ```1_combat_batchEffectCorrection.R```:  batch effect correction script
+- ```Combat_batchEffectCorrection.R```:  batch effect correction script
 
-- ```2_DiffAnalysis_heatmap_PCA.R```:  Differential analysis and visualation using complexheatmap and ggplot2
+- ```DiffAnalysis_heatmap_PCA.R```:  Differential analysis and visualation using complexheatmap and ggplot2
 
-- ```3_Random_resampling.R```:  random resampling, x100 times differential analysis and reporting the most frequent regions
+- ```Random_resampling.R```:  random resampling, x100 times differential analysis and reporting the most frequent regions
