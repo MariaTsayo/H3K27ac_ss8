@@ -45,13 +45,14 @@ conda install -c bioconda kallisto
 ```
 ## Folders and content:
 ### ChIP seq_fastq analysis: 
-```input```: The resource to find the ChIP seq data
-```pipeline```: The pipeline to run the analysis from fastq files
-```input```: The resource to find the output matrix
+- ```input```: The resource to find the ChIP seq data
+- ```pipeline```: The pipeline to run the analysis from fastq files
+- ```input```: The resource to find the output matrix
 
 ### RNAseq_analysis: 
-
-script necessary to create the RNAseq matrix
+- ```input```: The resource to find the ChIP seq data
+- ```pipeline```: The pipeline to run the analysis from fastq files
+- ```input```: The resource to find the output matrix
 
 ### downstream analysis:
 
