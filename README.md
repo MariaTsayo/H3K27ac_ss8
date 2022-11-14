@@ -45,8 +45,9 @@ conda install -c bioconda kallisto
 ```
 ## Folders and content:
 ### ChIP seq_fastq analysis: 
-
-script necessary to create the acetylation matrix
+```input```: The resource to find the ChIP seq data
+```pipeline```: The pipeline to run the analysis from fastq files
+```input```: The resource to find the output matrix
 
 ### RNAseq_analysis: 
 
