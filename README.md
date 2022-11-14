@@ -40,6 +40,7 @@ conda install -c bioconda bedtools
 ```
 #### necessary for RNA-seq fastq analysis
 ```
+conda install -c bioconda trim-galore
 conda install -c bioconda kallisto
 ```
 ## Folders and content:
