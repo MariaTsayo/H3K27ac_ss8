@@ -28,6 +28,20 @@ install.packages(c("tidyverse", "data.table", "stringdist", "pryr"))
 ```
 BiocManager::install(c("Biostrings", "ShortRead"))
 ```
+### from Bioconductor
+```
+BiocManager::install(c("Biostrings", "ShortRead"))
+```
+### from anaconda
+#### necessary for H3K27ac fastq analysis
+```
+conda install -c bioconda trim-galore
+conda install -c bioconda bwa
+conda install -c bioconda picard
+conda install -c bioconda samtools
+conda install -c bioconda macs2
+conda install -c bioconda bedtools
+```
 
 ## Folders and content:
 ### ChIP seq_fastq analysis: 
