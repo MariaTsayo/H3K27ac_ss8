@@ -22,11 +22,11 @@ The packages needed to be installed, in order to run the project are:
 
 ### from CRAN
 ```
-install.packages(c("tidyverse", "data.table", "stringdist", "pryr"))
+install.packages(c("tidyverse", "ggplot2",  "stringi", "boot"))
 ```
 ### from Bioconductor
 ```
-BiocManager::install(c("Biostrings", "ShortRead"))
+BiocManager::install(c("limma",  "ComplexHeatmap", "sva", "DESeq2"))
 ```
 ### from anaconda
 #### necessary for ChIP-seq/H3K27ac fastq analysis
@@ -47,17 +47,17 @@ conda install -c bioconda kallisto
 ### ChIP seq_fastq analysis: 
 - ```input```: The resource to find the ChIP seq data
 - ```pipeline```: The pipeline to run the analysis from fastq files
-- ```input```: The resource to find the output matrix
+- ```results```: The resource to find the output matrix
 
 ### RNAseq_analysis: 
 - ```input```: The resource to find the RNA seq data
 - ```pipeline```: The pipeline to run the analysis from fastq files and the script to import this output into R
-- ```input```: The resource to find the output matrix
+- ```results```: The resource to find the output matrix
 
 ### downstream analysis:
 
-1_combat_batchEffectCorrection.R (batch effect correction script), 
+- ```1_combat_batchEffectCorrection.R```:  batch effect correction script
 
-2_DiffAnalysis_heatmap_PCA.R (Differential analysis and visualation), 
+- ```2_DiffAnalysis_heatmap_PCA.R```:  Differential analysis and visualation using complexheatmap and ggplot2
 
-3_Random_resampling.R (random resampling, x100 times differential analysis and reporting the most frequent regions)
+- ```3_Random_resampling.R```:  random resampling, x100 times differential analysis and reporting the most frequent regions
