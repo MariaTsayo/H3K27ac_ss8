@@ -1,1 +1,20 @@
-
+Short description of the columns:
+- ```Code```: Patient code
+- ```ID```: Sample ID
+- ```IGHV```: mutational status of IGHV genes
+- ```tris12```: present of tris12 is related to TRUE
+- ```Stereotyped subset```: #1,#8,#2,#4,#16 
+- ```Normal B cells```: Different normal B cells subpopulations
+- ```IgG```: class switched cases
+- ```Status```: the categories including in the manuscript
+- ```H3K27ac data```: resource to find the data
+- ```RNAseq data```: resource to find the data
+- ```H3K27ac data_FastqID```: Code ID related to fastq files
+- ```Richter's Transformation```: 1 cases of #8 transformed to Richter
+- ```DA #8 vs U-CLL```: samples used for Diff acetylation analysis
+- ```DA #1 vs U-CLL```: samples used for Diff acetylation analysis
+- ```DA #2 vs M-CLL```: samples used for Diff acetylation analysis
+- ```DA #4 vs M-CLL```: samples used for Diff acetylation analysis
+- ```DE #8 vs U-CLL```: samples used for Diff expression analysis analysis
+- ```Integration:H3K27ac VS expression```: samples used for the correlation analysis of acetylation with gene expression
+- ```Read_bin```: variable regarding the number of reads. This variable was used for batch effect correction together with the Status column
