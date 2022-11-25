@@ -14,7 +14,7 @@ The chromatin activation landscape of major subsets of chronic lymphocytic leuke
 The data has been deposited in five levels of organization, from raw to processed data:
 
 - raw data. All the new generated fastq files have been deposited at the European Genome Archive (EGA) under accession id EGAS00001006457
-- matrices. All the counts table have been deposited in [Zenodo](https://zenodo.org/record/6865838)
+- matrices. All the counts table have been deposited in [Zenodo](https://zenodo.org/record/7353716)
 
 
 ## Prerequisites
